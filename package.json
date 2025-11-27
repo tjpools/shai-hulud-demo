@@ -9,7 +9,5 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "malicious-package": "file:./malicious-package"
-  }
+  "dependencies": {}
 }
