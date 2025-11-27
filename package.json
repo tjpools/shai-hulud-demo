@@ -1,0 +1,15 @@
+{
+  "name": "shai-hulud-demo",
+  "version": "1.0.0",
+  "description": "Demo project for npm supply chain attack simulation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "malicious-package": "file:./malicious-package"
+  }
+}

